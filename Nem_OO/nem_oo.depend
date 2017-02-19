@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1487502662 source:c:\users\bence\documents\prog_2\nem_oo\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1487502662 c:\users\bence\documents\prog_2\nem_oo\memtrace.h
+	<new>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+
+1487502662 source:c:\users\bence\documents\prog_2\nem_oo\nem_oo_teszt.cpp
+	<iostream>
+	<cstring>
+	<locale>
+	<windows.h>
+	"nem_oo.h"
+
+1487502662 c:\users\bence\documents\prog_2\nem_oo\nem_oo.h
+	"memtrace.h"
+
