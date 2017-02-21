@@ -1,0 +1,16 @@
+/*
+Elõfordulhat, hogy a gtest csomagot újra kell fordítani egy 
+másik platformon (pl. OSX). 
+Ehhez a a gtest forrás különféle környezethez ad scripteket és
+projektfájlokat, de CodeBloks-hoz nem.
+
+Ez a könyvtár két CodeBloks projektfájlt tartalmaz az újrafordításhoz. 
+Másolja ezt a ezt a katalógust a gtest forrás gyökerébe, majd 
+a két projektfájl segítségével állítsa elõ a szükséges lib-eket
+(libgtestd.a, libgtest_maind.a)
+Természetesen a relase változatok is elõállíthatók (libgtest.a, libgtest_main.a),
+bár nem életszerû, hogy debug információ nélkül szeretnénk gtest-et futtani.
+
+Jó munkát!
+*/
+
