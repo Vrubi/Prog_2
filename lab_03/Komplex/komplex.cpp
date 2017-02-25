@@ -43,12 +43,11 @@ bool Komplex::operator!=(const Komplex& rhs_k) const {  // visszavezetjük az eg
 #endif
 
 Komplex Komplex::operator+(const Komplex& rhs_k) const{
-    this->re + rhs_k.re;
-    this->im + rhs_k.im;
+    return Komplex(this->re + rhs_k.re,this->im + rhs_k.im);
 }
 
 Komplex Komplex::operator+(double rhs_d) const{
-    this->re + rhs_d;
+    return Komplex(this->re + rhs_d,this->im);
 }
 
 Komplex operator+(double rhs_d,const Komplex& rhs_k){
@@ -63,6 +62,12 @@ Komplex operator+(double rhs_d,const Komplex& rhs_k){
 /// @return eredeti (bal oldali) objektum ref., amihez hozzáadtuk rhd_d-t
 Komplex& Komplex::operator+=(double rhs_d) {
     re += rhs_d;
+    return *this;
+}
+
+Komplex& Komplex::operator+=(const Komplex& rhs_k){
+    this->re+=rhs_k.re;
+    this->im+=rhs_k.im;
     return *this;
 }
 #endif

@@ -12,7 +12,7 @@
  * lefuttatni, ezért az ELKESZULT makro értéket folyamatosan növelje a
  * feladatsorszámoknak megfelelően!
  */
-#define ELKESZULT 4
+#define ELKESZULT 6
 /**
  *Feladatok:
  *
@@ -132,7 +132,9 @@ public:
 #if ELKESZULT >= 6
     /// Abszolútérték lekérdezése
     /// @return - abszolútérték
-    double abs() const;
+    double abs() const{
+        return sqrt(re*re+im*im);
+    }
 #endif
 
 #if ELKESZULT >= 8

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1487755615 source:c:\users\vrbov\onedrive\documents\prog_2\cppellenallas\resistor_test.cpp
+	<iostream>
+	"resistor.h"
+
+1488039886 c:\users\vrbov\onedrive\documents\prog_2\cppellenallas\resistor.h
+
+1488039155 source:c:\users\vrbov\onedrive\documents\prog_2\cppellenallas\resistor.cpp
+	"resistor.h"
+
