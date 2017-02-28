@@ -1,13 +1,13 @@
 /**
- * Ohmikus ellenállást megvalósitó osztály megvalósítása
+ * Ohmikus ellenÃ¡llÃ¡st megvalÃ³sitÃ³ osztÃ¡ly megvalÃ³sÃ­tÃ¡sa
  */
 #include "resistor.h"
 #include <iostream>
 #include <cmath>
 
-//Itt kell megvalósítani a resistor.h-ban deklarált
-//nem inline függvényeket.
-//A Jportára ezt a fajlt kell feltölteni.
+//Itt kell megvalÃ³sÃ­tani a resistor.h-ban deklarÃ¡lt
+//nem inline fÃ¼ggvÃ©nyeket.
+//A JportÃ¡ra ezt a fajlt kell feltÃ¶lteni.
 
 double Resistor::defR=88;
 
@@ -40,7 +40,7 @@ Resistor Resistor::operator%(const Resistor& r)const{
 }
 
 bool Resistor::operator==(const Resistor& r) const{
-    return (this->R == r.R);
+    return fabs(this->R - r.R)<0.0000001;
 }
 
 bool Resistor::operator!=(const Resistor& r) const{
