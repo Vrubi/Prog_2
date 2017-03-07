@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1488367755 source:c:\users\vrbov\onedrive\documents\prog_2\cppvektor1\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1488367755 c:\users\vrbov\onedrive\documents\prog_2\cppvektor1\memtrace.h
+	<new>
+	<stdlib.h>
+	<iostream>
+
+1488454820 source:c:\users\vrbov\onedrive\documents\prog_2\cppvektor1\vektor.cpp
+	"vektor.h"
+
+1488367755 c:\users\vrbov\onedrive\documents\prog_2\cppvektor1\vektor.h
+	"memtrace.h"
+
+1488367755 source:c:\users\vrbov\onedrive\documents\prog_2\cppvektor1\vektormain.cpp
+	<iostream>
+	<ctime>
+	<iomanip>
+	"vektor.h"
+	"gtest_lite.h"
+
+1488367755 c:\users\vrbov\onedrive\documents\prog_2\cppvektor1\gtest_lite.h
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<string>
+	<fstream>
+
