@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1488884342 source:c:\users\vrbov\onedrive\documents\prog_2\string2\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1488884342 c:\users\vrbov\onedrive\documents\prog_2\string2\memtrace.h
+	<new>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+
+1488884342 source:c:\users\vrbov\onedrive\documents\prog_2\string2\rendez.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<clocale>
+	<windows.h>
+	"rendez.h"
+	"rendez_u8.h"
+	"string2.h"
+
+1488884342 c:\users\vrbov\onedrive\documents\prog_2\string2\rendez.h
+
+1488884342 c:\users\vrbov\onedrive\documents\prog_2\string2\rendez_u8.h
+
+1488896998 c:\users\vrbov\onedrive\documents\prog_2\string2\string2.h
+	<iostream>
+
+1488884342 source:c:\users\vrbov\onedrive\documents\prog_2\string2\string2_test.cpp
+	<iostream>
+	<sstream>
+	<clocale>
+	<windows.h>
+	"memtrace.h"
+	"string2.h"
+	"rendez.h"
+	"gtest_lite.h"
+
+1488884342 c:\users\vrbov\onedrive\documents\prog_2\string2\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<string>
+	<fstream>
+
+1488896738 source:c:\users\vrbov\onedrive\documents\prog_2\string2\string2.cpp
+	<iostream>
+	<cstring>
+	"memtrace.h"
+	"string2.h"
+

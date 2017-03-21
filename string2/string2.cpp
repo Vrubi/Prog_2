@@ -60,10 +60,21 @@ String String::operator=(String str){
 
 /// [] operátorok: egy megadott indexű elem REFERENCIÁJÁVAL térnek vissza.
 /// indexhiba esetén dobjon egy const char * típusú hibát!
-
+char& String::operator[](int idx){
+    if (idx<=0)
+        throw "Szar indexeles!";
+    else
+        return this->pData[idx];
+}
 
 /// + operátorok, ami két sztringet ad össze (concatString)
-
+const String String::operator+(const String str){
+    this->len+=str.len;
+    temp->pData=new char[temp->len+1];
+    strcpy(temp->pData,this->pData);
+    strcat(temp->pData,str.pData);
+    return *this;
+}
 
 /// << operator, ami kiír az ostream-re
 

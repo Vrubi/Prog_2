@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1490097027 source:c:\users\vrbov\onedrive\documents\prog_2\lab_07\ab.cpp
+	<iostream>
+	"ab.h"
+
+1490097043 c:\users\vrbov\onedrive\documents\prog_2\lab_07\ab.h
+	<iostream>
+

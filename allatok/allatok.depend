@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1489568456 source:c:\users\vrbov\onedrive\documents\prog_2\allatok\allatok.cpp
+	<iostream>
+	<string>
+	"memtrace.h"
+
+1489568456 c:\users\vrbov\onedrive\documents\prog_2\allatok\memtrace.h
+	<new>
+	<stdlib.h>
+	<iostream>
+
+1489568456 source:c:\users\vrbov\onedrive\documents\prog_2\allatok\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+

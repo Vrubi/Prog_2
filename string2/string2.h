@@ -116,7 +116,7 @@ public:
 ///     b) NULL-t tárol, de a c_str() üres sztringet ad vissza helyette
 /// Bármelyik megoldás jó, mert ez az osztály belügye.
 
-#define ELKESZULT 6
+#define ELKESZULT 7
     /// Default konstruktor:
     String() :pData(0),len(0) {}
 
@@ -134,7 +134,7 @@ public:
     String(const String& str);
     String operator=(String str);
     char& operator[](int idx);
-
+    const String operator+(const String str);
 };
 
 #endif
